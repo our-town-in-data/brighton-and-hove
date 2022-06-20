@@ -1,0 +1,36 @@
+name: Scrape latest tide data
+
+on:
+  push:
+  workflow_dispatch:
+  schedule:
+    - cron:  0 0 * * *
+
+jobs:
+  scheduled:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Check out this repo
+      uses: actions/checkout@v2
+    - name: Fetch latest data
+      shell: bash
+      env:
+        ENDPOINT: https://admiraltyapi.azure-api.net/uktidalapi/api/V1/Stations/0082/TidalEvents?duration=1
+        AUTH_HEADER: Ocp-Apim-Subscription-Key
+        API_KEY: ${{ secrets.API_KEY_ADMIRALITY }}
+        FILENAME: tides/live/sample.json
+      run: |
+        mkdir -p $(dirname $FILENAME)
+        echo "Downloading $ENDPOINT to $FILENAME"
+        curl -v -X GET "$ENDPOINT" -H "$AUTH_HEADER: $API_KEY" -H "Connection: close" --data-ascii "{body}" | jq > $FILENAME
+        sleep 1
+    - name: Commit and push if it changed
+      env:
+        COMMIT_MESSAGE: Latest tide data
+      run: |-
+        git config user.name "Automated"
+        git config user.email "actions@users.noreply.github.com"
+        git add -A
+        timestamp=$(date -u)
+        git commit -m "$COMMIT_MESSAGE: ${timestamp}" || exit 0
+        git push
