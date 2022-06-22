@@ -1,10 +1,10 @@
 name: Scrape bus stop data
 
 on:
-  push:
   workflow_dispatch:
   schedule:
-    - cron:  0 0 */7 * *
+    # Mondays at 00:01
+    - cron:  1 0 * * 1
 
 jobs:
   scheduled:
@@ -12,7 +12,7 @@ jobs:
     steps:
     - name: Check out this repo
       uses: actions/checkout@v2
-    - name: Fetch latest data
+    - name: Fetch latest data from buses.co.uk
       shell: bash
       env:
         ENDPOINT: https://www.buses.co.uk/_ajax/stops?bounds[]=51.14462263441188,-0.3038784165191203&bounds[]=50.72817341721907,0.3342758370664399

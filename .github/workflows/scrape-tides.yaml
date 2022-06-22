@@ -4,7 +4,8 @@ on:
   push:
   workflow_dispatch:
   schedule:
-    - cron:  0 0 * * *
+    # Every night at 00:01
+    - cron:  1 0 * * *
 
 jobs:
   scheduled:
@@ -22,7 +23,9 @@ jobs:
       run: |
         mkdir -p $(dirname $FILENAME)
         echo "Downloading $ENDPOINT to $FILENAME"
-        curl -v -X GET "$ENDPOINT" -H "$AUTH_HEADER: $API_KEY" -H "Connection: close" --data-ascii "{body}" | jq > $FILENAME
+        echo $API_KEY | sha256sum
+        #wget --debug --header="$AUTH_HEADER: $API_KEY" --method=GET "$ENDPOINT" -O - | jq > "$FILENAME"
+        curl -v -X GET "$ENDPOINT" -H "$AUTH_HEADER: $API_KEY" --data-ascii "{body}" | jq > $FILENAME
         sleep 1
     - name: Commit and push if it changed
       env:
