@@ -1,7 +1,6 @@
 name: Scrape latest marine weather data
 
 on:
-  push:
   workflow_dispatch:
   schedule:
     # Every 3 hours, on the hour
@@ -19,7 +18,7 @@ jobs:
         ENDPOINT: https://api.stormglass.io/v2/weather/point
         AUTH_HEADER: Authorization
         API_KEY: ${{ secrets.API_KEY_STORMGLASS }}
-        FILENAME: sea/waether/live/sample.json
+        FILENAME: sea/weather/live/sample.json
         # just south of the palace pier
         lat: "50.8141883"
         lng: "-0.1416837"
