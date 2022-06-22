@@ -1,7 +1,6 @@
 name: Scrape latest tide data
 
 on:
-  push:
   workflow_dispatch:
   schedule:
     # Every night at 00:01
