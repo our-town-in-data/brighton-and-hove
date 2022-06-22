@@ -5,7 +5,7 @@ on:
   workflow_dispatch:
   schedule:
     # Every night at 00:01
-    - cron:  1 0 * * *
+    - cron:  '1 0 * * *'
 
 jobs:
   scheduled:
@@ -19,12 +19,10 @@ jobs:
         ENDPOINT: https://admiraltyapi.azure-api.net/uktidalapi/api/V1/Stations/0082/TidalEvents?duration=1
         AUTH_HEADER: Ocp-Apim-Subscription-Key
         API_KEY: ${{ secrets.API_KEY_ADMIRALITY }}
-        FILENAME: tides/live/sample.json
+        FILENAME: sea/tides/live/today.json
       run: |
         mkdir -p $(dirname $FILENAME)
         echo "Downloading $ENDPOINT to $FILENAME"
-        echo $API_KEY | sha256sum
-        #wget --debug --header="$AUTH_HEADER: $API_KEY" --method=GET "$ENDPOINT" -O - | jq > "$FILENAME"
         curl -v -X GET "$ENDPOINT" -H "$AUTH_HEADER: $API_KEY" --data-ascii "{body}" | jq > $FILENAME
         sleep 1
     - name: Commit and push if it changed
