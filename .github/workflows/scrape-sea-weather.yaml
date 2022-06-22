@@ -27,8 +27,8 @@ jobs:
       run: |
         mkdir -p $(dirname $FILENAME)
         echo "Downloading $ENDPOINT to $FILENAME"
-        start=$(date -v-15M +%Y-%m-%d%%20%H:%M)
-        end=$(date -v+30M +%Y-%m-%d%%20%H:%M)
+        start=$(date -u -d '5 minutes ago' +%Y-%m-%d%%20%H:%M)
+        end=$(date -u -d '30 minutes' +%Y-%m-%d%%20%H:%M)
         curl -v -X GET "$ENDPOINT?lat=$lat&lng=$lng&params=$params&start=$start&end=$end" -H "$AUTH_HEADER: $API_KEY" --data-ascii "{body}" | jq > $FILENAME
         sleep 1
     - name: Commit and push if it changed
