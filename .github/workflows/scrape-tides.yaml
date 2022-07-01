@@ -15,7 +15,7 @@ jobs:
     - name: Fetch latest data
       shell: bash
       env:
-        ENDPOINT: https://admiraltyapi.azure-api.net/uktidalapi/api/V1/Stations/0082/TidalEvents?duration=1
+        ENDPOINT: https://admiraltyapi.azure-api.net/uktidalapi/api/V1/Stations/0082/TidalEvents?duration=2
         AUTH_HEADER: Ocp-Apim-Subscription-Key
         API_KEY: ${{ secrets.API_KEY_ADMIRALITY }}
         FILENAME: sea/tides/live/today.json
