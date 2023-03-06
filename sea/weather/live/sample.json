@@ -2,133 +2,71 @@
   "hours": [
     {
       "airTemperature": {
-        "dwd": 5.17,
-        "noaa": 1.68,
-        "sg": 5.17
+        "dwd": 3.75,
+        "noaa": 1.83,
+        "sg": 3.75
       },
       "currentDirection": {
-        "meto": 67.1,
-        "sg": 67.1
+        "meto": 74.47,
+        "sg": 74.47
       },
       "currentSpeed": {
-        "meto": 0.15,
-        "sg": 0.15
+        "meto": 0.21,
+        "sg": 0.21
       },
       "gust": {
-        "dwd": 5.18,
+        "dwd": 6.01,
         "noaa": 6.1,
-        "sg": 5.18
+        "sg": 6.01
       },
-      "time": "2023-03-05T21:00:00+00:00",
+      "time": "2023-03-06T02:00:00+00:00",
       "visibility": {
-        "noaa": 24.13,
-        "sg": 24.13
-      },
-      "waterTemperature": {
-        "meto": 6.17,
-        "noaa": 1,
-        "sg": 6.17
-      },
-      "waveDirection": {
-        "icon": 245.15,
-        "meteo": 261.97,
-        "meto": 218.5,
-        "noaa": 246.31,
-        "sg": 218.5
-      },
-      "waveHeight": {
-        "dwd": 0.27,
-        "icon": 0.4,
-        "meteo": 0.59,
-        "meto": 0.22,
-        "noaa": 0.42,
-        "sg": 0.22
-      },
-      "wavePeriod": {
-        "icon": 8.31,
-        "meteo": 4.34,
-        "meto": 10.61,
-        "noaa": 13.7,
-        "sg": 10.61
-      },
-      "windDirection": {
-        "icon": 292.79,
-        "noaa": 256.88,
-        "sg": 292.79
-      },
-      "windSpeed": {
-        "icon": 3.4,
-        "noaa": 2.48,
-        "sg": 3.4
-      }
-    },
-    {
-      "airTemperature": {
-        "dwd": 5.03,
-        "noaa": 1.31,
-        "sg": 5.03
-      },
-      "currentDirection": {
-        "meto": 67.35,
-        "sg": 67.35
-      },
-      "currentSpeed": {
-        "meto": 0.17,
-        "sg": 0.17
-      },
-      "gust": {
-        "dwd": 7.11,
-        "noaa": 6.15,
-        "sg": 7.11
-      },
-      "time": "2023-03-05T22:00:00+00:00",
-      "visibility": {
-        "noaa": 24.13,
-        "sg": 24.13
+        "noaa": 24.14,
+        "sg": 24.14
       },
       "waterTemperature": {
         "meto": 6.14,
-        "noaa": 0.76,
+        "noaa": 1.64,
         "sg": 6.14
       },
       "waveDirection": {
-        "icon": 248.97,
-        "meteo": 265.32,
-        "meto": 219.5,
-        "noaa": 246.3,
-        "sg": 219.5
+        "icon": 258.5,
+        "meteo": 275.39,
+        "meto": 222.4,
+        "noaa": 246.25,
+        "sg": 222.4
       },
       "waveHeight": {
-        "dwd": 0.27,
-        "icon": 0.42,
-        "meteo": 0.62,
+        "dwd": 0.35,
+        "icon": 0.47,
+        "meteo": 0.72,
         "meto": 0.22,
-        "noaa": 0.45,
+        "noaa": 0.51,
         "sg": 0.22
       },
       "wavePeriod": {
-        "icon": 7.81,
-        "meteo": 4.1,
-        "meto": 10.43,
-        "noaa": 13.63,
-        "sg": 10.43
+        "icon": 6.59,
+        "meteo": 3.52,
+        "meto": 10.14,
+        "noaa": 13.39,
+        "sg": 10.14
       },
       "windDirection": {
-        "icon": 296.23,
-        "noaa": 265.52,
-        "sg": 296.23
+        "icon": 319.27,
+        "noaa": 302.22,
+        "sg": 319.27
       },
       "windSpeed": {
-        "icon": 3.95,
-        "noaa": 2.55,
-        "sg": 3.95
+        "icon": 4.71,
+        "noaa": 3.63,
+        "sg": 4.71
       }
     }
   ],
   "meta": {
     "cost": 1,
     "dailyQuota": 10,
-    "end": "2023-03-05 22:02",
+    "end": "2023-03-06 02:37",
     "lat": 50.8141883,
     "lng": -0.1416837,
     "params": [
@@ -144,7 +82,7 @@
       "currentSpeed",
       "airTemperature"
     ],
-    "requestCount": 8,
-    "start": "2023-03-05 21:00"
+    "requestCount": 1,
+    "start": "2023-03-06 02:00"
   }
 }
