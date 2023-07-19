@@ -32,20 +32,20 @@
       "waveDirection": {
         "icon": 239.31,
         "meteo": 257.12,
-        "noaa": 256.73,
+        "noaa": 256.45,
         "sg": 257.12
       },
       "waveHeight": {
         "dwd": 0.6,
         "icon": 0.71,
         "meteo": 0.71,
-        "noaa": 0.73,
+        "noaa": 0.79,
         "sg": 0.71
       },
       "wavePeriod": {
         "icon": 3.75,
         "meteo": 2.99,
-        "noaa": 3.93,
+        "noaa": 3.88,
         "sg": 2.99
       },
       "windDirection": {
@@ -58,12 +58,71 @@
         "noaa": 1.99,
         "sg": 6.48
       }
+    },
+    {
+      "airTemperature": {
+        "dwd": 16.25,
+        "noaa": 14.17,
+        "sg": 16.25
+      },
+      "currentDirection": {
+        "meto": 274.2,
+        "sg": 274.2
+      },
+      "currentSpeed": {
+        "meto": 0.12,
+        "sg": 0.12
+      },
+      "gust": {
+        "dwd": 8.32,
+        "noaa": 6.78,
+        "sg": 8.32
+      },
+      "time": "2023-07-19T04:00:00+00:00",
+      "visibility": {
+        "noaa": 24.14,
+        "sg": 24.14
+      },
+      "waterTemperature": {
+        "meto": 17.02,
+        "noaa": 13.96,
+        "sg": 17.02
+      },
+      "waveDirection": {
+        "icon": 239.3,
+        "meteo": 257.61,
+        "noaa": 256.19,
+        "sg": 257.61
+      },
+      "waveHeight": {
+        "dwd": 0.59,
+        "icon": 0.71,
+        "meteo": 0.75,
+        "noaa": 0.8,
+        "sg": 0.75
+      },
+      "wavePeriod": {
+        "icon": 3.94,
+        "meteo": 3.09,
+        "noaa": 4.03,
+        "sg": 3.09
+      },
+      "windDirection": {
+        "icon": 258.85,
+        "noaa": 253.91,
+        "sg": 258.85
+      },
+      "windSpeed": {
+        "icon": 5.96,
+        "noaa": 2.67,
+        "sg": 5.96
+      }
     }
   ],
   "meta": {
     "cost": 1,
     "dailyQuota": 10,
-    "end": "2023-07-19 03:40",
+    "end": "2023-07-19 04:32",
     "lat": 50.8141883,
     "lng": -0.1416837,
     "params": [
@@ -79,7 +138,7 @@
       "currentSpeed",
       "airTemperature"
     ],
-    "requestCount": 1,
+    "requestCount": 2,
     "start": "2023-07-19 03:00"
   }
 }
