@@ -2,127 +2,68 @@
   "hours": [
     {
       "airTemperature": {
-        "dwd": 17.63,
-        "noaa": 15.01,
-        "sg": 17.63
+        "dwd": 16.45,
+        "noaa": 12.96,
+        "sg": 16.45
       },
       "currentDirection": {
-        "meto": 79,
-        "sg": 79
+        "meto": 78.97,
+        "sg": 78.97
       },
       "currentSpeed": {
-        "meto": 0.12,
-        "sg": 0.12
+        "meto": 0.07,
+        "sg": 0.07
       },
       "gust": {
-        "dwd": 4.2,
-        "noaa": 1.34,
-        "sg": 4.2
+        "dwd": 2.39,
+        "noaa": 0.81,
+        "sg": 2.39
       },
-      "time": "2023-09-13T21:00:00+00:00",
+      "time": "2023-09-14T01:00:00+00:00",
       "visibility": {
         "noaa": 24.13,
         "sg": 24.13
       },
       "waterTemperature": {
-        "meto": 19.97,
-        "noaa": 15.03,
-        "sg": 19.97
+        "meto": 19.9,
+        "noaa": 11.17,
+        "sg": 19.9
       },
       "waveDirection": {
-        "icon": 67.15,
-        "meteo": 68.05,
-        "noaa": 77.93,
-        "sg": 68.05
+        "icon": 77.06,
+        "meteo": 70.91,
+        "noaa": 76.54,
+        "sg": 70.91
       },
       "waveHeight": {
         "dwd": 0.1,
-        "icon": 0.28,
-        "meteo": 0.66,
-        "noaa": 0.6,
-        "sg": 0.66
+        "icon": 0.26,
+        "meteo": 0.51,
+        "noaa": 0.45,
+        "sg": 0.51
       },
       "wavePeriod": {
-        "icon": 3.93,
-        "meteo": 3.15,
-        "noaa": 4.31,
-        "sg": 3.15
+        "icon": 3.71,
+        "meteo": 3.13,
+        "noaa": 4.16,
+        "sg": 3.13
       },
       "windDirection": {
-        "icon": 118.29,
-        "noaa": 127.62,
-        "sg": 118.29
+        "icon": 150.19,
+        "noaa": 166.79,
+        "sg": 150.19
       },
       "windSpeed": {
-        "icon": 2.32,
-        "noaa": 1.35,
-        "sg": 2.32
-      }
-    },
-    {
-      "airTemperature": {
-        "dwd": 17.3,
-        "noaa": 14.41,
-        "sg": 17.3
-      },
-      "currentDirection": {
-        "meto": 79.04,
-        "sg": 79.04
-      },
-      "currentSpeed": {
-        "meto": 0.11,
-        "sg": 0.11
-      },
-      "gust": {
-        "dwd": 3.03,
-        "noaa": 1.21,
-        "sg": 3.03
-      },
-      "time": "2023-09-13T22:00:00+00:00",
-      "visibility": {
-        "noaa": 24.13,
-        "sg": 24.13
-      },
-      "waterTemperature": {
-        "meto": 19.95,
-        "noaa": 13.8,
-        "sg": 19.95
-      },
-      "waveDirection": {
-        "icon": 69.65,
-        "meteo": 68.94,
-        "noaa": 77.41,
-        "sg": 68.94
-      },
-      "waveHeight": {
-        "dwd": 0.1,
-        "icon": 0.28,
-        "meteo": 0.63,
-        "noaa": 0.56,
-        "sg": 0.63
-      },
-      "wavePeriod": {
-        "icon": 3.87,
-        "meteo": 3.15,
-        "noaa": 4.3,
-        "sg": 3.15
-      },
-      "windDirection": {
-        "icon": 126.38,
-        "noaa": 138.46,
-        "sg": 126.38
-      },
-      "windSpeed": {
-        "icon": 2.2,
-        "noaa": 1.2,
-        "sg": 2.2
+        "icon": 1.43,
+        "noaa": 0.74,
+        "sg": 1.43
       }
     }
   ],
   "meta": {
     "cost": 1,
     "dailyQuota": 10,
-    "end": "2023-09-13 22:02",
+    "end": "2023-09-14 01:59",
     "lat": 50.8141883,
     "lng": -0.1416837,
     "params": [
@@ -138,7 +79,7 @@
       "currentSpeed",
       "airTemperature"
     ],
-    "requestCount": 8,
-    "start": "2023-09-13 21:00"
+    "requestCount": 1,
+    "start": "2023-09-14 01:00"
   }
 }
