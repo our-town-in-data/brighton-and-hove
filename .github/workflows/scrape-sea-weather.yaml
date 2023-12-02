@@ -30,6 +30,12 @@ jobs:
         end=$(date -u -d '30 minutes' +%Y-%m-%d%%20%H:%M)
         curl -v -X GET "$ENDPOINT?lat=$lat&lng=$lng&params=$params&start=$start&end=$end" -H "$AUTH_HEADER: $API_KEY" --data-ascii "{body}" | jq > $FILENAME
         sleep 1
+    - name: Convert to CSV
+      env:
+        SCRIPT: sea/weather/bin/json-to-csv.sh
+      run: |
+        sh "$SCRIPT"
+        sleep 1
     - name: Commit and push if it changed
       env:
         COMMIT_MESSAGE: Latest sea weather data
