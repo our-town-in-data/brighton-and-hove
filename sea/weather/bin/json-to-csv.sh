@@ -29,7 +29,7 @@ day="${day##*-}"
 
 write_to_csv() {
     local csv="$2"
-    local live_data="$1"$liv
+    local live_data="$1"
 
     local directory=$(dirname "$csv")
     mkdir -p "$directory"
@@ -43,6 +43,7 @@ write_to_csv() {
     | @csv' >> "$csv"
 }
 
+# Convert to various directories.
 write_to_csv "$live_data" "$csv_dir/historical/$filename"
 write_to_csv "$live_data" "$csv_dir/by-year/$year/$filename"
 write_to_csv "$live_data" "$csv_dir/by-month/$year/$month/$filename"
