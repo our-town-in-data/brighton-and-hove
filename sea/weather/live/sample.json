@@ -2,67 +2,13 @@
   "hours": [
     {
       "airTemperature": {
-        "dwd": 17.94,
-        "noaa": 16.57,
-        "sg": 17.94
+        "dwd": 16.47,
+        "noaa": 15.99,
+        "sg": 16.47
       },
       "currentDirection": {
-        "meto": 78.15,
-        "sg": 78.15
-      },
-      "currentSpeed": {
-        "meto": 0.1,
-        "sg": 0.1
-      },
-      "gust": {
-        "dwd": 3.67,
-        "noaa": 13.93,
-        "sg": 3.67
-      },
-      "time": "2024-09-18T18:00:00+00:00",
-      "visibility": {
-        "noaa": 24.13,
-        "sg": 24.13
-      },
-      "waterTemperature": {
-        "meto": 16.93,
-        "noaa": 15.87,
-        "sg": 16.93
-      },
-      "waveDirection": {
-        "meteo": 54.21,
-        "noaa": 71.93,
-        "sg": 54.21
-      },
-      "waveHeight": {
-        "dwd": 0.41,
-        "meteo": 1.59,
-        "noaa": 1.67,
-        "sg": 1.59
-      },
-      "wavePeriod": {
-        "meteo": 4.22,
-        "noaa": 6.18,
-        "sg": 4.22
-      },
-      "windDirection": {
-        "noaa": 42.64,
-        "sg": 42.64
-      },
-      "windSpeed": {
-        "noaa": 6.32,
-        "sg": 6.32
-      }
-    },
-    {
-      "airTemperature": {
-        "dwd": 17.18,
-        "noaa": 16.38,
-        "sg": 17.18
-      },
-      "currentDirection": {
-        "meto": 76.48,
-        "sg": 76.48
+        "meto": 71.48,
+        "sg": 71.48
       },
       "currentSpeed": {
         "meto": 0.11,
@@ -70,49 +16,103 @@
       },
       "gust": {
         "dwd": 3.67,
-        "noaa": 14,
+        "noaa": 14.15,
         "sg": 3.67
       },
-      "time": "2024-09-18T19:00:00+00:00",
+      "time": "2024-09-18T21:00:00+00:00",
+      "visibility": {
+        "noaa": 24.14,
+        "sg": 24.14
+      },
+      "waterTemperature": {
+        "meto": 16.91,
+        "noaa": 15.25,
+        "sg": 16.91
+      },
+      "waveDirection": {
+        "meteo": 55.31,
+        "noaa": 71.39,
+        "sg": 55.31
+      },
+      "waveHeight": {
+        "dwd": 0.37,
+        "meteo": 1.46,
+        "noaa": 1.62,
+        "sg": 1.46
+      },
+      "wavePeriod": {
+        "meteo": 4.14,
+        "noaa": 5.93,
+        "sg": 4.14
+      },
+      "windDirection": {
+        "noaa": 43.88,
+        "sg": 43.88
+      },
+      "windSpeed": {
+        "noaa": 5.92,
+        "sg": 5.92
+      }
+    },
+    {
+      "airTemperature": {
+        "dwd": 16.29,
+        "noaa": 15.89,
+        "sg": 16.29
+      },
+      "currentDirection": {
+        "meto": 68.81,
+        "sg": 68.81
+      },
+      "currentSpeed": {
+        "meto": 0.11,
+        "sg": 0.11
+      },
+      "gust": {
+        "dwd": 3.67,
+        "noaa": 13.54,
+        "sg": 3.67
+      },
+      "time": "2024-09-18T22:00:00+00:00",
       "visibility": {
         "noaa": 24.13,
         "sg": 24.13
       },
       "waterTemperature": {
-        "meto": 16.92,
-        "noaa": 15.66,
-        "sg": 16.92
+        "meto": 16.91,
+        "noaa": 15.11,
+        "sg": 16.91
       },
       "waveDirection": {
-        "meteo": 54.58,
-        "noaa": 71.75,
-        "sg": 54.58
+        "meteo": 56.5,
+        "noaa": 71.42,
+        "sg": 56.5
       },
       "waveHeight": {
-        "dwd": 0.4,
-        "meteo": 1.55,
-        "noaa": 1.65,
-        "sg": 1.55
+        "dwd": 0.34,
+        "meteo": 1.41,
+        "noaa": 1.59,
+        "sg": 1.41
       },
       "wavePeriod": {
-        "meteo": 4.19,
-        "noaa": 6.1,
-        "sg": 4.19
+        "meteo": 4.08,
+        "noaa": 5.88,
+        "sg": 4.08
       },
       "windDirection": {
-        "noaa": 43.05,
-        "sg": 43.05
+        "noaa": 41.91,
+        "sg": 41.91
       },
       "windSpeed": {
-        "noaa": 6.19,
-        "sg": 6.19
+        "noaa": 5.77,
+        "sg": 5.77
       }
     }
   ],
   "meta": {
     "cost": 1,
     "dailyQuota": 10,
-    "end": "2024-09-18 19:10",
+    "end": "2024-09-18 22:02",
     "lat": 50.8141883,
     "lng": -0.1416837,
     "params": [
@@ -128,7 +128,7 @@
       "currentSpeed",
       "airTemperature"
     ],
-    "requestCount": 7,
-    "start": "2024-09-18 18:00"
+    "requestCount": 8,
+    "start": "2024-09-18 21:00"
   }
 }
