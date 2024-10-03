@@ -2,115 +2,115 @@
   "hours": [
     {
       "airTemperature": {
-        "dwd": 11.64,
-        "noaa": 11.35,
-        "sg": 11.64
+        "dwd": 11.19,
+        "noaa": 10.47,
+        "sg": 11.19
       },
       "currentDirection": {
-        "meto": 69.46,
-        "sg": 69.46
+        "meto": 68.58,
+        "sg": 68.58
       },
       "currentSpeed": {
         "meto": 0.11,
         "sg": 0.11
       },
       "gust": {
-        "noaa": 10.78,
-        "sg": 10.78
+        "noaa": 9.23,
+        "sg": 9.23
       },
-      "time": "2024-10-03T01:00:00+00:00",
+      "time": "2024-10-03T03:00:00+00:00",
       "visibility": {
         "noaa": 24.13,
         "sg": 24.13
       },
       "waterTemperature": {
-        "meto": 15.74,
-        "noaa": 10.52,
-        "sg": 15.74
+        "meto": 15.7,
+        "noaa": 9.65,
+        "sg": 15.7
       },
       "waveDirection": {
-        "meteo": 53.67,
-        "noaa": 73.59,
-        "sg": 53.67
-      },
-      "waveHeight": {
-        "dwd": 0.28,
-        "meteo": 1.47,
-        "noaa": 1.24,
-        "sg": 1.47
-      },
-      "wavePeriod": {
-        "meteo": 4.14,
-        "noaa": 5.48,
-        "sg": 4.14
-      },
-      "windDirection": {
-        "noaa": 27.84,
-        "sg": 27.84
-      },
-      "windSpeed": {
-        "noaa": 5.28,
-        "sg": 5.28
-      }
-    },
-    {
-      "airTemperature": {
-        "dwd": 11.41,
-        "noaa": 10.91,
-        "sg": 11.41
-      },
-      "currentDirection": {
-        "meto": 68.45,
-        "sg": 68.45
-      },
-      "currentSpeed": {
-        "meto": 0.11,
-        "sg": 0.11
-      },
-      "gust": {
-        "noaa": 10.01,
-        "sg": 10.01
-      },
-      "time": "2024-10-03T02:00:00+00:00",
-      "visibility": {
-        "noaa": 24.13,
-        "sg": 24.13
-      },
-      "waterTemperature": {
-        "meto": 15.72,
-        "noaa": 10.08,
-        "sg": 15.72
-      },
-      "waveDirection": {
-        "meteo": 55.55,
-        "noaa": 73.42,
-        "sg": 55.55
+        "meteo": 57.44,
+        "noaa": 73.24,
+        "sg": 57.44
       },
       "waveHeight": {
         "dwd": 0.28,
         "meteo": 1.46,
-        "noaa": 1.23,
+        "noaa": 1.22,
         "sg": 1.46
       },
       "wavePeriod": {
-        "meteo": 4.13,
-        "noaa": 5.32,
-        "sg": 4.13
+        "meteo": 4.12,
+        "noaa": 5.17,
+        "sg": 4.12
       },
       "windDirection": {
-        "noaa": 23.9,
-        "sg": 23.9
+        "noaa": 19.95,
+        "sg": 19.95
       },
       "windSpeed": {
-        "noaa": 4.51,
-        "sg": 4.51
+        "noaa": 3.74,
+        "sg": 3.74
+      }
+    },
+    {
+      "airTemperature": {
+        "dwd": 11.28,
+        "noaa": 9.57,
+        "sg": 11.28
+      },
+      "currentDirection": {
+        "meto": 68.85,
+        "sg": 68.85
+      },
+      "currentSpeed": {
+        "meto": 0.12,
+        "sg": 0.12
+      },
+      "gust": {
+        "noaa": 8.57,
+        "sg": 8.57
+      },
+      "time": "2024-10-03T04:00:00+00:00",
+      "visibility": {
+        "noaa": 24.14,
+        "sg": 24.14
+      },
+      "waterTemperature": {
+        "meto": 15.69,
+        "noaa": 8.71,
+        "sg": 15.69
+      },
+      "waveDirection": {
+        "meteo": 57.72,
+        "noaa": 73.46,
+        "sg": 57.72
+      },
+      "waveHeight": {
+        "dwd": 0.28,
+        "meteo": 1.41,
+        "noaa": 1.19,
+        "sg": 1.41
+      },
+      "wavePeriod": {
+        "meteo": 4.11,
+        "noaa": 5.17,
+        "sg": 4.11
+      },
+      "windDirection": {
+        "noaa": 17.57,
+        "sg": 17.57
+      },
+      "windSpeed": {
+        "noaa": 3.68,
+        "sg": 3.68
       }
     }
   ],
   "meta": {
     "cost": 1,
     "dailyQuota": 10,
-    "end": "2024-10-03 02:26",
+    "end": "2024-10-03 04:10",
     "lat": 50.8141883,
     "lng": -0.1416837,
     "params": [
@@ -126,7 +126,7 @@
       "currentSpeed",
       "airTemperature"
     ],
-    "requestCount": 1,
-    "start": "2024-10-03 01:00"
+    "requestCount": 2,
+    "start": "2024-10-03 03:00"
   }
 }
