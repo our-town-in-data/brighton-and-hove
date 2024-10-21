@@ -2,117 +2,117 @@
   "hours": [
     {
       "airTemperature": {
-        "dwd": 14.99,
-        "noaa": 11.64,
-        "sg": 14.99
+        "dwd": 14.35,
+        "noaa": 12.94,
+        "sg": 14.35
       },
       "currentDirection": {
-        "meto": 249.93,
-        "sg": 249.93
+        "meto": 247.88,
+        "sg": 247.88
       },
       "currentSpeed": {
-        "meto": 0.2,
-        "sg": 0.2
+        "meto": 0.18,
+        "sg": 0.18
       },
       "gust": {
-        "dwd": 11.9,
-        "noaa": 11.43,
-        "sg": 11.9
+        "dwd": 11.22,
+        "noaa": 9.22,
+        "sg": 11.22
       },
-      "time": "2024-10-21T03:00:00+00:00",
-      "visibility": {
-        "noaa": 24.13,
-        "sg": 24.13
-      },
-      "waterTemperature": {
-        "meto": 15.31,
-        "noaa": 10.55,
-        "sg": 15.31
-      },
-      "waveDirection": {
-        "meteo": 249.66,
-        "noaa": 246.75,
-        "sg": 249.66
-      },
-      "waveHeight": {
-        "dwd": 1.46,
-        "meteo": 2.1,
-        "noaa": 1.96,
-        "sg": 2.1
-      },
-      "wavePeriod": {
-        "meteo": 5.48,
-        "noaa": 6.98,
-        "sg": 5.48
-      },
-      "windDirection": {
-        "noaa": 243.95,
-        "sg": 243.95
-      },
-      "windSpeed": {
-        "noaa": 4.74,
-        "sg": 4.74
-      }
-    },
-    {
-      "airTemperature": {
-        "dwd": 14.49,
-        "noaa": 11.53,
-        "sg": 14.49
-      },
-      "currentDirection": {
-        "meto": 249.78,
-        "sg": 249.78
-      },
-      "currentSpeed": {
-        "meto": 0.19,
-        "sg": 0.19
-      },
-      "gust": {
-        "dwd": 10.73,
-        "noaa": 10.71,
-        "sg": 10.73
-      },
-      "time": "2024-10-21T04:00:00+00:00",
+      "time": "2024-10-21T06:00:00+00:00",
       "visibility": {
         "noaa": 24.13,
         "sg": 24.13
       },
       "waterTemperature": {
         "meto": 15.32,
-        "noaa": 10.54,
+        "noaa": 12.32,
         "sg": 15.32
       },
       "waveDirection": {
-        "meteo": 250.27,
-        "noaa": 247.77,
-        "sg": 250.27
+        "meteo": 251.49,
+        "noaa": 249.09,
+        "sg": 251.49
       },
       "waveHeight": {
-        "dwd": 1.34,
-        "meteo": 2.03,
-        "noaa": 1.76,
-        "sg": 2.03
+        "dwd": 1.21,
+        "meteo": 1.9,
+        "noaa": 1.62,
+        "sg": 1.9
       },
       "wavePeriod": {
-        "meteo": 5.43,
-        "noaa": 6.88,
-        "sg": 5.43
+        "meteo": 5.32,
+        "noaa": 6.84,
+        "sg": 5.32
       },
       "windDirection": {
-        "noaa": 244.38,
-        "sg": 244.38
+        "noaa": 249.71,
+        "sg": 249.71
       },
       "windSpeed": {
-        "noaa": 4.16,
-        "sg": 4.16
+        "noaa": 3.84,
+        "sg": 3.84
+      }
+    },
+    {
+      "airTemperature": {
+        "dwd": 14.2,
+        "noaa": 12.97,
+        "sg": 14.2
+      },
+      "currentDirection": {
+        "meto": 247.66,
+        "sg": 247.66
+      },
+      "currentSpeed": {
+        "meto": 0.17,
+        "sg": 0.17
+      },
+      "gust": {
+        "dwd": 9.37,
+        "noaa": 8.36,
+        "sg": 9.37
+      },
+      "time": "2024-10-21T07:00:00+00:00",
+      "visibility": {
+        "noaa": 24.13,
+        "sg": 24.13
+      },
+      "waterTemperature": {
+        "meto": 15.32,
+        "noaa": 12.47,
+        "sg": 15.32
+      },
+      "waveDirection": {
+        "meteo": 252.04,
+        "noaa": 249.41,
+        "sg": 252.04
+      },
+      "waveHeight": {
+        "dwd": 1.17,
+        "meteo": 1.82,
+        "noaa": 1.53,
+        "sg": 1.82
+      },
+      "wavePeriod": {
+        "meteo": 5.35,
+        "noaa": 6.8,
+        "sg": 5.35
+      },
+      "windDirection": {
+        "noaa": 232.99,
+        "sg": 232.99
+      },
+      "windSpeed": {
+        "noaa": 3.63,
+        "sg": 3.63
       }
     }
   ],
   "meta": {
     "cost": 1,
     "dailyQuota": 10,
-    "end": "2024-10-21 04:13",
+    "end": "2024-10-21 07:14",
     "lat": 50.8141883,
     "lng": -0.1416837,
     "params": [
@@ -128,7 +128,7 @@
       "currentSpeed",
       "airTemperature"
     ],
-    "requestCount": 2,
-    "start": "2024-10-21 03:00"
+    "requestCount": 3,
+    "start": "2024-10-21 06:00"
   }
 }
