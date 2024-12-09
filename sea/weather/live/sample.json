@@ -2,8 +2,62 @@
   "hours": [
     {
       "airTemperature": {
+        "dwd": 7.68,
+        "noaa": 6.07,
+        "sg": 7.68
+      },
+      "currentDirection": {
+        "meto": 81.83,
+        "sg": 81.83
+      },
+      "currentSpeed": {
+        "meto": 0.1,
+        "sg": 0.1
+      },
+      "gust": {
+        "dwd": 14.25,
+        "noaa": 14.7,
+        "sg": 14.25
+      },
+      "time": "2024-12-09T09:00:00+00:00",
+      "visibility": {
+        "noaa": 24.14,
+        "sg": 24.14
+      },
+      "waterTemperature": {
+        "meto": 10.15,
+        "noaa": 5.35,
+        "sg": 10.15
+      },
+      "waveDirection": {
+        "meteo": 43.79,
+        "noaa": 65.35,
+        "sg": 43.79
+      },
+      "waveHeight": {
+        "dwd": 0.34,
+        "meteo": 2.25,
+        "noaa": 2.05,
+        "sg": 2.25
+      },
+      "wavePeriod": {
+        "meteo": 4.8,
+        "noaa": 6.32,
+        "sg": 4.8
+      },
+      "windDirection": {
+        "noaa": 23.54,
+        "sg": 23.54
+      },
+      "windSpeed": {
+        "noaa": 8.52,
+        "sg": 8.52
+      }
+    },
+    {
+      "airTemperature": {
         "dwd": 7.7,
-        "noaa": 7.01,
+        "noaa": 6.36,
         "sg": 7.7
       },
       "currentDirection": {
@@ -15,104 +69,50 @@
         "sg": 0.1
       },
       "gust": {
-        "dwd": 12.52,
-        "noaa": 14.91,
-        "sg": 12.52
+        "dwd": 14.04,
+        "noaa": 14.53,
+        "sg": 14.04
       },
-      "time": "2024-12-09T06:00:00+00:00",
+      "time": "2024-12-09T10:00:00+00:00",
       "visibility": {
         "noaa": 24.14,
         "sg": 24.14
       },
       "waterTemperature": {
-        "meto": 10.16,
-        "noaa": 6.35,
-        "sg": 10.16
+        "meto": 10.15,
+        "noaa": 5.85,
+        "sg": 10.15
       },
       "waveDirection": {
-        "meteo": 46.01,
-        "noaa": 63.1,
-        "sg": 46.01
+        "meteo": 44.08,
+        "noaa": 64.98,
+        "sg": 44.08
       },
       "waveHeight": {
-        "dwd": 0.34,
-        "meteo": 2.26,
-        "noaa": 1.98,
-        "sg": 2.26
+        "dwd": 0.37,
+        "meteo": 2.22,
+        "noaa": 2.02,
+        "sg": 2.22
       },
       "wavePeriod": {
-        "meteo": 4.87,
-        "noaa": 6.16,
-        "sg": 4.87
+        "meteo": 4.81,
+        "noaa": 6.29,
+        "sg": 4.81
       },
       "windDirection": {
-        "noaa": 21.63,
-        "sg": 21.63
+        "noaa": 22.85,
+        "sg": 22.85
       },
       "windSpeed": {
-        "noaa": 8.75,
-        "sg": 8.75
-      }
-    },
-    {
-      "airTemperature": {
-        "dwd": 7.75,
-        "noaa": 6.81,
-        "sg": 7.75
-      },
-      "currentDirection": {
-        "meto": 77.84,
-        "sg": 77.84
-      },
-      "currentSpeed": {
-        "meto": 0.11,
-        "sg": 0.11
-      },
-      "gust": {
-        "dwd": 12.33,
-        "noaa": 14.82,
-        "sg": 12.33
-      },
-      "time": "2024-12-09T07:00:00+00:00",
-      "visibility": {
-        "noaa": 24.13,
-        "sg": 24.13
-      },
-      "waterTemperature": {
-        "meto": 10.16,
-        "noaa": 6.12,
-        "sg": 10.16
-      },
-      "waveDirection": {
-        "meteo": 45.27,
-        "noaa": 63.85,
-        "sg": 45.27
-      },
-      "waveHeight": {
-        "dwd": 0.34,
-        "meteo": 2.26,
-        "noaa": 2.0,
-        "sg": 2.26
-      },
-      "wavePeriod": {
-        "meteo": 4.85,
-        "noaa": 6.21,
-        "sg": 4.85
-      },
-      "windDirection": {
-        "noaa": 21.95,
-        "sg": 21.95
-      },
-      "windSpeed": {
-        "noaa": 8.73,
-        "sg": 8.73
+        "noaa": 8.62,
+        "sg": 8.62
       }
     }
   ],
   "meta": {
     "cost": 1,
     "dailyQuota": 10,
-    "end": "2024-12-09 07:16",
+    "end": "2024-12-09 10:08",
     "lat": 50.8141883,
     "lng": -0.1416837,
     "params": [
@@ -128,7 +128,7 @@
       "currentSpeed",
       "airTemperature"
     ],
-    "requestCount": 3,
-    "start": "2024-12-09 06:00"
+    "requestCount": 4,
+    "start": "2024-12-09 09:00"
   }
 }
