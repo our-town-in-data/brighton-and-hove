@@ -2,90 +2,36 @@
   "hours": [
     {
       "airTemperature": {
-        "dwd": 4.2,
-        "noaa": 1.33,
-        "sg": 4.2
+        "dwd": 4.14,
+        "noaa": 1.44,
+        "sg": 4.14
       },
       "currentDirection": {
-        "meto": 106.71,
-        "sg": 106.71
+        "meto": 91.36,
+        "sg": 91.36
       },
       "currentSpeed": {
-        "meto": 0.08,
-        "sg": 0.08
+        "meto": 0.1,
+        "sg": 0.1
       },
       "gust": {
-        "dwd": 4.41,
-        "noaa": 0.96,
-        "sg": 4.41
+        "dwd": 4.27,
+        "noaa": 1.0,
+        "sg": 4.27
       },
-      "time": "2025-01-18T01:00:00+00:00",
-      "visibility": {
-        "noaa": 24.13,
-        "sg": 24.13
-      },
-      "waterTemperature": {
-        "meto": 7.86,
-        "noaa": -0.85,
-        "sg": 7.86
-      },
-      "waveDirection": {
-        "meteo": 252.91,
-        "noaa": 247.1,
-        "sg": 252.91
-      },
-      "waveHeight": {
-        "dwd": 0.32,
-        "meteo": 0.62,
-        "noaa": 0.35,
-        "sg": 0.62
-      },
-      "wavePeriod": {
-        "meteo": 7.89,
-        "noaa": 12.23,
-        "sg": 7.89
-      },
-      "windDirection": {
-        "noaa": 103.93,
-        "sg": 103.93
-      },
-      "windSpeed": {
-        "noaa": 0.93,
-        "sg": 0.93
-      }
-    },
-    {
-      "airTemperature": {
-        "dwd": 4.22,
-        "noaa": 1.39,
-        "sg": 4.22
-      },
-      "currentDirection": {
-        "meto": 99.65,
-        "sg": 99.65
-      },
-      "currentSpeed": {
-        "meto": 0.09,
-        "sg": 0.09
-      },
-      "gust": {
-        "dwd": 4.35,
-        "noaa": 0.98,
-        "sg": 4.35
-      },
-      "time": "2025-01-18T02:00:00+00:00",
+      "time": "2025-01-18T03:00:00+00:00",
       "visibility": {
         "noaa": 24.14,
         "sg": 24.14
       },
       "waterTemperature": {
-        "meto": 7.85,
-        "noaa": -0.82,
-        "sg": 7.85
+        "meto": 7.84,
+        "noaa": -0.79,
+        "sg": 7.84
       },
       "waveDirection": {
         "meteo": 252.92,
-        "noaa": 247.36,
+        "noaa": 247.62,
         "sg": 252.92
       },
       "waveHeight": {
@@ -95,24 +41,78 @@
         "sg": 0.63
       },
       "wavePeriod": {
-        "meteo": 6.91,
-        "noaa": 12.11,
-        "sg": 6.91
+        "meteo": 5.94,
+        "noaa": 12.0,
+        "sg": 5.94
       },
       "windDirection": {
-        "noaa": 103.62,
-        "sg": 103.62
+        "noaa": 103.31,
+        "sg": 103.31
       },
       "windSpeed": {
-        "noaa": 0.98,
-        "sg": 0.98
+        "noaa": 1.02,
+        "sg": 1.02
+      }
+    },
+    {
+      "airTemperature": {
+        "dwd": 4.03,
+        "noaa": 1.44,
+        "sg": 4.03
+      },
+      "currentDirection": {
+        "meto": 85.82,
+        "sg": 85.82
+      },
+      "currentSpeed": {
+        "meto": 0.11,
+        "sg": 0.11
+      },
+      "gust": {
+        "dwd": 4.62,
+        "noaa": 1.0,
+        "sg": 4.62
+      },
+      "time": "2025-01-18T04:00:00+00:00",
+      "visibility": {
+        "noaa": 24.14,
+        "sg": 24.14
+      },
+      "waterTemperature": {
+        "meto": 7.82,
+        "noaa": -0.79,
+        "sg": 7.82
+      },
+      "waveDirection": {
+        "meteo": 251.96,
+        "noaa": 247.59,
+        "sg": 251.96
+      },
+      "waveHeight": {
+        "dwd": 0.33,
+        "meteo": 0.63,
+        "noaa": 0.37,
+        "sg": 0.63
+      },
+      "wavePeriod": {
+        "meteo": 5.89,
+        "noaa": 11.94,
+        "sg": 5.89
+      },
+      "windDirection": {
+        "noaa": 99.8,
+        "sg": 99.8
+      },
+      "windSpeed": {
+        "noaa": 1.0,
+        "sg": 1.0
       }
     }
   ],
   "meta": {
     "cost": 1,
     "dailyQuota": 10,
-    "end": "2025-01-18 02:00",
+    "end": "2025-01-18 04:00",
     "lat": 50.8141883,
     "lng": -0.1416837,
     "params": [
@@ -128,7 +128,7 @@
       "currentSpeed",
       "airTemperature"
     ],
-    "requestCount": 1,
-    "start": "2025-01-18 01:00"
+    "requestCount": 2,
+    "start": "2025-01-18 03:00"
   }
 }
