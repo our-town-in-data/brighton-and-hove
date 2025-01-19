@@ -2,117 +2,117 @@
   "hours": [
     {
       "airTemperature": {
-        "dwd": 3.65,
-        "noaa": 0.45,
-        "sg": 3.65
+        "dwd": 3.59,
+        "noaa": 0.51,
+        "sg": 3.59
       },
       "currentDirection": {
-        "meto": 81.89,
-        "sg": 81.89
+        "meto": 80.98,
+        "sg": 80.98
       },
       "currentSpeed": {
-        "meto": 0.08,
-        "sg": 0.08
+        "meto": 0.06,
+        "sg": 0.06
       },
       "gust": {
-        "dwd": 6.79,
-        "noaa": 1.82,
-        "sg": 6.79
+        "dwd": 7.64,
+        "noaa": 2.06,
+        "sg": 7.64
       },
-      "time": "2025-01-19T01:00:00+00:00",
-      "visibility": {
-        "noaa": 24.14,
-        "sg": 24.14
-      },
-      "waterTemperature": {
-        "meto": 7.96,
-        "noaa": -1.11,
-        "sg": 7.96
-      },
-      "waveDirection": {
-        "meteo": 231.16,
-        "noaa": 248.87,
-        "sg": 231.16
-      },
-      "waveHeight": {
-        "dwd": 0.44,
-        "meteo": 0.71,
-        "noaa": 0.62,
-        "sg": 0.71
-      },
-      "wavePeriod": {
-        "meteo": 3.97,
-        "noaa": 10.83,
-        "sg": 3.97
-      },
-      "windDirection": {
-        "noaa": 131.44,
-        "sg": 131.44
-      },
-      "windSpeed": {
-        "noaa": 1.78,
-        "sg": 1.78
-      }
-    },
-    {
-      "airTemperature": {
-        "dwd": 3.63,
-        "noaa": 0.48,
-        "sg": 3.63
-      },
-      "currentDirection": {
-        "meto": 82.16,
-        "sg": 82.16
-      },
-      "currentSpeed": {
-        "meto": 0.07,
-        "sg": 0.07
-      },
-      "gust": {
-        "dwd": 7.31,
-        "noaa": 1.94,
-        "sg": 7.31
-      },
-      "time": "2025-01-19T02:00:00+00:00",
+      "time": "2025-01-19T03:00:00+00:00",
       "visibility": {
         "noaa": 24.13,
         "sg": 24.13
       },
       "waterTemperature": {
-        "meto": 7.96,
-        "noaa": -1.03,
-        "sg": 7.96
+        "meto": 7.95,
+        "noaa": -0.95,
+        "sg": 7.95
       },
       "waveDirection": {
-        "meteo": 231.65,
-        "noaa": 248.88,
-        "sg": 231.65
+        "meteo": 232.15,
+        "noaa": 248.9,
+        "sg": 232.15
       },
       "waveHeight": {
-        "dwd": 0.45,
+        "dwd": 0.46,
         "meteo": 0.71,
-        "noaa": 0.6,
+        "noaa": 0.59,
+        "sg": 0.71
+      },
+      "wavePeriod": {
+        "meteo": 3.92,
+        "noaa": 10.74,
+        "sg": 3.92
+      },
+      "windDirection": {
+        "noaa": 134.8,
+        "sg": 134.8
+      },
+      "windSpeed": {
+        "noaa": 2.06,
+        "sg": 2.06
+      }
+    },
+    {
+      "airTemperature": {
+        "dwd": 3.19,
+        "noaa": 0.67,
+        "sg": 3.19
+      },
+      "currentDirection": {
+        "meto": 75.89,
+        "sg": 75.89
+      },
+      "currentSpeed": {
+        "meto": 0.06,
+        "sg": 0.06
+      },
+      "gust": {
+        "dwd": 7.46,
+        "noaa": 2.26,
+        "sg": 7.46
+      },
+      "time": "2025-01-19T04:00:00+00:00",
+      "visibility": {
+        "noaa": 24.14,
+        "sg": 24.14
+      },
+      "waterTemperature": {
+        "meto": 7.95,
+        "noaa": -0.39,
+        "sg": 7.95
+      },
+      "waveDirection": {
+        "meteo": 232.95,
+        "noaa": 249.2,
+        "sg": 232.95
+      },
+      "waveHeight": {
+        "dwd": 0.47,
+        "meteo": 0.71,
+        "noaa": 0.59,
         "sg": 0.71
       },
       "wavePeriod": {
         "meteo": 3.95,
-        "noaa": 10.79,
+        "noaa": 10.67,
         "sg": 3.95
       },
       "windDirection": {
-        "noaa": 133.12,
-        "sg": 133.12
+        "noaa": 134.5,
+        "sg": 134.5
       },
       "windSpeed": {
-        "noaa": 1.92,
-        "sg": 1.92
+        "noaa": 2.07,
+        "sg": 2.07
       }
     }
   ],
   "meta": {
     "cost": 1,
     "dailyQuota": 10,
-    "end": "2025-01-19 02:00",
+    "end": "2025-01-19 04:00",
     "lat": 50.8141883,
     "lng": -0.1416837,
     "params": [
@@ -128,7 +128,7 @@
       "currentSpeed",
       "airTemperature"
     ],
-    "requestCount": 1,
-    "start": "2025-01-19 01:00"
+    "requestCount": 2,
+    "start": "2025-01-19 03:00"
   }
 }
