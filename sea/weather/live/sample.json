@@ -2,117 +2,117 @@
   "hours": [
     {
       "airTemperature": {
-        "dwd": 5.7,
-        "noaa": 4.96,
-        "sg": 5.7
+        "dwd": 5.59,
+        "noaa": 4.76,
+        "sg": 5.59
       },
       "currentDirection": {
-        "meto": 90.07,
-        "sg": 90.07
+        "meto": 89.61,
+        "sg": 89.61
       },
       "currentSpeed": {
-        "meto": 0.09,
-        "sg": 0.09
+        "meto": 0.06,
+        "sg": 0.06
       },
       "gust": {
-        "dwd": 4.86,
-        "noaa": 5.21,
-        "sg": 4.86
+        "dwd": 4.3,
+        "noaa": 4.6,
+        "sg": 4.3
       },
-      "time": "2025-02-01T01:00:00+00:00",
-      "visibility": {
-        "noaa": 24.14,
-        "sg": 24.14
-      },
-      "waterTemperature": {
-        "meto": 7.94,
-        "noaa": 4.73,
-        "sg": 7.94
-      },
-      "waveDirection": {
-        "meteo": 229.5,
-        "noaa": 250.21,
-        "sg": 229.5
-      },
-      "waveHeight": {
-        "dwd": 0.51,
-        "meteo": 0.97,
-        "noaa": 0.77,
-        "sg": 0.97
-      },
-      "wavePeriod": {
-        "meteo": 4.13,
-        "noaa": 6.64,
-        "sg": 4.13
-      },
-      "windDirection": {
-        "noaa": 135.2,
-        "sg": 135.2
-      },
-      "windSpeed": {
-        "noaa": 2.59,
-        "sg": 2.59
-      }
-    },
-    {
-      "airTemperature": {
-        "dwd": 5.62,
-        "noaa": 4.86,
-        "sg": 5.62
-      },
-      "currentDirection": {
-        "meto": 89.51,
-        "sg": 89.51
-      },
-      "currentSpeed": {
-        "meto": 0.07,
-        "sg": 0.07
-      },
-      "gust": {
-        "dwd": 4.64,
-        "noaa": 4.9,
-        "sg": 4.64
-      },
-      "time": "2025-02-01T02:00:00+00:00",
+      "time": "2025-02-01T03:00:00+00:00",
       "visibility": {
         "noaa": 24.13,
         "sg": 24.13
       },
       "waterTemperature": {
         "meto": 7.94,
-        "noaa": 4.6,
+        "noaa": 4.46,
         "sg": 7.94
       },
       "waveDirection": {
-        "meteo": 228.56,
-        "noaa": 250.38,
-        "sg": 228.56
+        "meteo": 227.61,
+        "noaa": 250.55,
+        "sg": 227.61
       },
       "waveHeight": {
-        "dwd": 0.5,
-        "meteo": 0.95,
-        "noaa": 0.77,
-        "sg": 0.95
+        "dwd": 0.48,
+        "meteo": 0.92,
+        "noaa": 0.76,
+        "sg": 0.92
       },
       "wavePeriod": {
-        "meteo": 4.11,
-        "noaa": 6.6,
-        "sg": 4.11
+        "meteo": 4.09,
+        "noaa": 6.57,
+        "sg": 4.09
       },
       "windDirection": {
-        "noaa": 134.23,
-        "sg": 134.23
+        "noaa": 133.25,
+        "sg": 133.25
       },
       "windSpeed": {
-        "noaa": 2.38,
-        "sg": 2.38
+        "noaa": 2.18,
+        "sg": 2.18
+      }
+    },
+    {
+      "airTemperature": {
+        "dwd": 5.6,
+        "noaa": 4.79,
+        "sg": 5.6
+      },
+      "currentDirection": {
+        "meto": 92.58,
+        "sg": 92.58
+      },
+      "currentSpeed": {
+        "meto": 0.05,
+        "sg": 0.05
+      },
+      "gust": {
+        "dwd": 4.24,
+        "noaa": 4.04,
+        "sg": 4.24
+      },
+      "time": "2025-02-01T04:00:00+00:00",
+      "visibility": {
+        "noaa": 24.13,
+        "sg": 24.13
+      },
+      "waterTemperature": {
+        "meto": 7.94,
+        "noaa": 4.43,
+        "sg": 7.94
+      },
+      "waveDirection": {
+        "meteo": 227.28,
+        "noaa": 248.53,
+        "sg": 227.28
+      },
+      "waveHeight": {
+        "dwd": 0.46,
+        "meteo": 0.9,
+        "noaa": 0.74,
+        "sg": 0.9
+      },
+      "wavePeriod": {
+        "meteo": 4.05,
+        "noaa": 6.58,
+        "sg": 4.05
+      },
+      "windDirection": {
+        "noaa": 134.17,
+        "sg": 134.17
+      },
+      "windSpeed": {
+        "noaa": 2.12,
+        "sg": 2.12
       }
     }
   ],
   "meta": {
     "cost": 1,
     "dailyQuota": 10,
-    "end": "2025-02-01 02:00",
+    "end": "2025-02-01 04:00",
     "lat": 50.8141883,
     "lng": -0.1416837,
     "params": [
@@ -128,7 +128,7 @@
       "currentSpeed",
       "airTemperature"
     ],
-    "requestCount": 1,
-    "start": "2025-02-01 01:00"
+    "requestCount": 2,
+    "start": "2025-02-01 03:00"
   }
 }
