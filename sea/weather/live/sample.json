@@ -2,117 +2,117 @@
   "hours": [
     {
       "airTemperature": {
-        "dwd": 4.88,
-        "noaa": 1.03,
-        "sg": 4.88
+        "dwd": 4.87,
+        "noaa": 3.29,
+        "sg": 4.87
       },
       "currentDirection": {
-        "meto": 132.17,
-        "sg": 132.17
+        "meto": 114.12,
+        "sg": 114.12
       },
       "currentSpeed": {
-        "meto": 0.02,
-        "sg": 0.02
+        "meto": 0.03,
+        "sg": 0.03
       },
       "gust": {
-        "dwd": 10.61,
-        "noaa": 7.46,
-        "sg": 10.61
+        "dwd": 9.85,
+        "noaa": 7.1,
+        "sg": 9.85
       },
-      "time": "2025-02-15T06:00:00+00:00",
-      "visibility": {
-        "noaa": 24.14,
-        "sg": 24.14
-      },
-      "waterTemperature": {
-        "meto": 7.56,
-        "noaa": -0.15,
-        "sg": 7.56
-      },
-      "waveDirection": {
-        "meteo": 199.87,
-        "noaa": 160.79,
-        "sg": 199.87
-      },
-      "waveHeight": {
-        "dwd": 0.86,
-        "meteo": 1.02,
-        "noaa": 1.1,
-        "sg": 1.02
-      },
-      "wavePeriod": {
-        "meteo": 4.09,
-        "noaa": 4.61,
-        "sg": 4.09
-      },
-      "windDirection": {
-        "noaa": 140.29,
-        "sg": 140.29
-      },
-      "windSpeed": {
-        "noaa": 2.87,
-        "sg": 2.87
-      }
-    },
-    {
-      "airTemperature": {
-        "dwd": 4.91,
-        "noaa": 1.78,
-        "sg": 4.91
-      },
-      "currentDirection": {
-        "meto": 128.7,
-        "sg": 128.7
-      },
-      "currentSpeed": {
-        "meto": 0.02,
-        "sg": 0.02
-      },
-      "gust": {
-        "dwd": 10.44,
-        "noaa": 7.34,
-        "sg": 10.44
-      },
-      "time": "2025-02-15T07:00:00+00:00",
+      "time": "2025-02-15T09:00:00+00:00",
       "visibility": {
         "noaa": 24.14,
         "sg": 24.14
       },
       "waterTemperature": {
         "meto": 7.55,
-        "noaa": 1.02,
+        "noaa": 3.35,
         "sg": 7.55
       },
       "waveDirection": {
-        "meteo": 202.88,
-        "noaa": 163.11,
-        "sg": 202.88
+        "meteo": 208.9,
+        "noaa": 167.74,
+        "sg": 208.9
       },
       "waveHeight": {
-        "dwd": 0.85,
+        "dwd": 0.76,
         "meteo": 1.02,
-        "noaa": 1.07,
+        "noaa": 1.01,
         "sg": 1.02
       },
       "wavePeriod": {
-        "meteo": 4.08,
-        "noaa": 4.57,
-        "sg": 4.08
+        "meteo": 4.05,
+        "noaa": 4.5,
+        "sg": 4.05
       },
       "windDirection": {
-        "noaa": 142.37,
-        "sg": 142.37
+        "noaa": 146.54,
+        "sg": 146.54
       },
       "windSpeed": {
-        "noaa": 3.0,
-        "sg": 3.0
+        "noaa": 3.26,
+        "sg": 3.26
+      }
+    },
+    {
+      "airTemperature": {
+        "dwd": 4.98,
+        "noaa": 3.79,
+        "sg": 4.98
+      },
+      "currentDirection": {
+        "meto": 111.81,
+        "sg": 111.81
+      },
+      "currentSpeed": {
+        "meto": 0.03,
+        "sg": 0.03
+      },
+      "gust": {
+        "dwd": 9.7,
+        "noaa": 6.71,
+        "sg": 9.7
+      },
+      "time": "2025-02-15T10:00:00+00:00",
+      "visibility": {
+        "noaa": 24.14,
+        "sg": 24.14
+      },
+      "waterTemperature": {
+        "meto": 7.56,
+        "noaa": 4.25,
+        "sg": 7.56
+      },
+      "waveDirection": {
+        "meteo": 211.39,
+        "noaa": 167.98,
+        "sg": 211.39
+      },
+      "waveHeight": {
+        "dwd": 0.75,
+        "meteo": 1.02,
+        "noaa": 0.98,
+        "sg": 1.02
+      },
+      "wavePeriod": {
+        "meteo": 4.11,
+        "noaa": 4.5,
+        "sg": 4.11
+      },
+      "windDirection": {
+        "noaa": 146.72,
+        "sg": 146.72
+      },
+      "windSpeed": {
+        "noaa": 3.69,
+        "sg": 3.69
       }
     }
   ],
   "meta": {
     "cost": 1,
     "dailyQuota": 10,
-    "end": "2025-02-15 07:00",
+    "end": "2025-02-15 10:00",
     "lat": 50.8141883,
     "lng": -0.1416837,
     "params": [
@@ -128,7 +128,7 @@
       "currentSpeed",
       "airTemperature"
     ],
-    "requestCount": 3,
-    "start": "2025-02-15 06:00"
+    "requestCount": 4,
+    "start": "2025-02-15 09:00"
   }
 }
