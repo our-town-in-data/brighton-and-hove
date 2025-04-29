@@ -2,73 +2,137 @@
   "hours": [
     {
       "airTemperature": {
-        "dwd": 16.56,
-        "ecmwf": 14.58,
-        "noaa": 19.79,
-        "sg": 14.58
+        "dwd": 17.1,
+        "ecmwf": 15.48,
+        "noaa": 19.65,
+        "sg": 15.48
       },
       "currentDirection": {
-        "ecmwf": 94.42,
-        "meto": 100.45,
-        "sg": 94.42
+        "ecmwf": 95.4,
+        "meto": 102.46,
+        "sg": 95.4
       },
       "currentSpeed": {
-        "ecmwf": 0.17,
+        "ecmwf": 0.18,
         "meto": 0.18,
-        "sg": 0.17
+        "sg": 0.18
       },
       "gust": {
-        "dwd": 6.19,
-        "noaa": 5.17,
-        "sg": 6.19
+        "dwd": 6.54,
+        "noaa": 5.3,
+        "sg": 6.54
       },
-      "time": "2025-04-29T13:00:00+00:00",
+      "time": "2025-04-29T15:00:00+00:00",
+      "visibility": {
+        "noaa": 24.13,
+        "sg": 24.13
+      },
+      "waterTemperature": {
+        "meto": 13.58,
+        "noaa": 20.15,
+        "sg": 13.58
+      },
+      "waveDirection": {
+        "ecmwf": 171.7,
+        "meteo": 61.12,
+        "noaa": 251.67,
+        "sg": 171.7
+      },
+      "waveHeight": {
+        "dwd": 0.37,
+        "ecmwf": 0.3,
+        "meteo": 0.68,
+        "noaa": 0.53,
+        "sg": 0.3
+      },
+      "wavePeriod": {
+        "ecmwf": 2.4,
+        "meteo": 3.14,
+        "noaa": 9.8,
+        "sg": 2.4
+      },
+      "windDirection": {
+        "dwd": 98.22,
+        "ecmwf": 93.91,
+        "noaa": 92.25,
+        "sg": 93.91
+      },
+      "windSpeed": {
+        "dwd": 4.46,
+        "ecmwf": 5.5,
+        "noaa": 4.8,
+        "sg": 5.5
+      }
+    },
+    {
+      "airTemperature": {
+        "dwd": 17.05,
+        "ecmwf": 15.38,
+        "noaa": 18.58,
+        "sg": 15.38
+      },
+      "currentDirection": {
+        "ecmwf": 95.36,
+        "meto": 102.66,
+        "sg": 95.36
+      },
+      "currentSpeed": {
+        "ecmwf": 0.18,
+        "meto": 0.17,
+        "sg": 0.18
+      },
+      "gust": {
+        "dwd": 6.22,
+        "noaa": 5.85,
+        "sg": 6.22
+      },
+      "time": "2025-04-29T16:00:00+00:00",
       "visibility": {
         "noaa": 24.14,
         "sg": 24.14
       },
       "waterTemperature": {
-        "meto": 13.47,
-        "noaa": 21.02,
-        "sg": 13.47
+        "meto": 13.6,
+        "noaa": 18.72,
+        "sg": 13.6
       },
       "waveDirection": {
-        "ecmwf": 174.57,
-        "meteo": 332.76,
-        "noaa": 251.82,
-        "sg": 174.57
+        "ecmwf": 167.8,
+        "meteo": 62.53,
+        "noaa": 251.52,
+        "sg": 167.8
       },
       "waveHeight": {
-        "dwd": 0.35,
-        "ecmwf": 0.3,
-        "meteo": 0.63,
-        "noaa": 0.52,
-        "sg": 0.3
+        "dwd": 0.36,
+        "ecmwf": 0.31,
+        "meteo": 0.73,
+        "noaa": 0.56,
+        "sg": 0.31
       },
       "wavePeriod": {
-        "ecmwf": 2.4,
-        "meteo": 3.13,
-        "noaa": 9.93,
-        "sg": 2.4
+        "ecmwf": 2.45,
+        "meteo": 3.19,
+        "noaa": 9.75,
+        "sg": 2.45
       },
       "windDirection": {
-        "dwd": 101.83,
-        "ecmwf": 97.32,
-        "noaa": 92.56,
-        "sg": 97.32
+        "dwd": 94.68,
+        "ecmwf": 91.67,
+        "noaa": 81.69,
+        "sg": 91.67
       },
       "windSpeed": {
-        "dwd": 4.42,
-        "ecmwf": 5.27,
-        "noaa": 4.6,
-        "sg": 5.27
+        "dwd": 4.03,
+        "ecmwf": 5.5,
+        "noaa": 4.48,
+        "sg": 5.5
       }
     }
   ],
   "meta": {
     "cost": 1,
     "dailyQuota": 10,
-    "end": "2025-04-29 13:00",
+    "end": "2025-04-29 16:00",
     "lat": 50.8141883,
     "lng": -0.1416837,
     "params": [
@@ -84,7 +148,7 @@
       "currentSpeed",
       "airTemperature"
     ],
-    "requestCount": 5,
-    "start": "2025-04-29 13:00"
+    "requestCount": 6,
+    "start": "2025-04-29 15:00"
   }
 }
