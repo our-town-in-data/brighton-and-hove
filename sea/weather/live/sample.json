@@ -2,137 +2,73 @@
   "hours": [
     {
       "airTemperature": {
-        "dwd": 13.81,
-        "ecmwf": 13.0,
-        "noaa": 12.78,
-        "sg": 13.0
-      },
-      "currentDirection": {
-        "ecmwf": 83.32,
-        "meto": 53.09,
-        "sg": 83.32
-      },
-      "currentSpeed": {
-        "ecmwf": 0.11,
-        "meto": 0.15,
-        "sg": 0.11
-      },
-      "gust": {
-        "dwd": 6.15,
-        "noaa": 1.13,
-        "sg": 6.15
-      },
-      "time": "2025-05-21T09:00:00+00:00",
-      "visibility": {
-        "noaa": 12.31,
-        "sg": 12.31
-      },
-      "waterTemperature": {
-        "meto": 14.88,
-        "noaa": 13.58,
-        "sg": 14.88
-      },
-      "waveDirection": {
-        "ecmwf": 243.05,
-        "meteo": 258.29,
-        "noaa": 312.57,
-        "sg": 243.05
-      },
-      "waveHeight": {
-        "dwd": 0.2,
-        "ecmwf": 0.2,
-        "meteo": 0.3,
-        "noaa": 0.57,
-        "sg": 0.2
-      },
-      "wavePeriod": {
-        "ecmwf": 2.31,
-        "meteo": 4.08,
-        "noaa": 3.22,
-        "sg": 2.31
-      },
-      "windDirection": {
-        "dwd": 13.08,
-        "ecmwf": 9.42,
-        "noaa": 32.04,
-        "sg": 9.42
-      },
-      "windSpeed": {
-        "dwd": 4.4,
-        "ecmwf": 2.15,
-        "noaa": 0.99,
-        "sg": 2.15
-      }
-    },
-    {
-      "airTemperature": {
-        "dwd": 14.16,
-        "ecmwf": 13.0,
-        "noaa": 13.69,
-        "sg": 13.0
-      },
-      "currentDirection": {
-        "ecmwf": 86.96,
-        "meto": 58.74,
-        "sg": 86.96
-      },
-      "currentSpeed": {
-        "ecmwf": 0.11,
-        "meto": 0.13,
-        "sg": 0.11
-      },
-      "gust": {
-        "dwd": 5.96,
-        "noaa": 1.64,
-        "sg": 5.96
-      },
-      "time": "2025-05-21T10:00:00+00:00",
-      "visibility": {
-        "noaa": 13.3,
-        "sg": 13.3
-      },
-      "waterTemperature": {
-        "meto": 14.96,
+        "dwd": 13.69,
+        "ecmwf": 12.16,
         "noaa": 15.02,
-        "sg": 14.96
+        "sg": 12.16
+      },
+      "currentDirection": {
+        "ecmwf": 89.55,
+        "meto": 47.04,
+        "sg": 89.55
+      },
+      "currentSpeed": {
+        "ecmwf": 0.1,
+        "meto": 0.08,
+        "sg": 0.1
+      },
+      "gust": {
+        "dwd": 1.66,
+        "noaa": 2.52,
+        "sg": 1.66
+      },
+      "time": "2025-05-21T13:00:00+00:00",
+      "visibility": {
+        "noaa": 15.0,
+        "sg": 15.0
+      },
+      "waterTemperature": {
+        "meto": 15.27,
+        "noaa": 16.82,
+        "sg": 15.27
       },
       "waveDirection": {
-        "ecmwf": 243.31,
-        "meteo": 258.76,
-        "noaa": 293.36,
-        "sg": 243.31
+        "ecmwf": 246.48,
+        "meteo": 260.13,
+        "noaa": 254.87,
+        "sg": 246.48
       },
       "waveHeight": {
-        "dwd": 0.26,
-        "ecmwf": 0.2,
-        "meteo": 0.31,
-        "noaa": 0.48,
-        "sg": 0.2
+        "dwd": 0.19,
+        "ecmwf": 0.17,
+        "meteo": 0.29,
+        "noaa": 0.28,
+        "sg": 0.17
       },
       "wavePeriod": {
-        "ecmwf": 2.45,
-        "meteo": 4.04,
-        "noaa": 5.38,
-        "sg": 2.45
+        "ecmwf": 2.55,
+        "meteo": 4.29,
+        "noaa": 9.68,
+        "sg": 2.55
       },
       "windDirection": {
-        "dwd": 29.69,
-        "ecmwf": 311.07,
-        "noaa": 33.81,
-        "sg": 311.07
+        "dwd": 157.87,
+        "ecmwf": 216.95,
+        "noaa": 70.0,
+        "sg": 216.95
       },
       "windSpeed": {
-        "dwd": 2.09,
-        "ecmwf": 2.51,
-        "noaa": 1.48,
-        "sg": 2.51
+        "dwd": 0.93,
+        "ecmwf": 2.23,
+        "noaa": 1.99,
+        "sg": 2.23
       }
     }
   ],
   "meta": {
     "cost": 1,
     "dailyQuota": 10,
-    "end": "2025-05-21 10:00",
+    "end": "2025-05-21 13:00",
     "lat": 50.8141883,
     "lng": -0.1416837,
     "params": [
@@ -148,7 +84,7 @@
       "currentSpeed",
       "airTemperature"
     ],
-    "requestCount": 4,
-    "start": "2025-05-21 09:00"
+    "requestCount": 5,
+    "start": "2025-05-21 13:00"
   }
 }
