@@ -2,139 +2,78 @@
   "hours": [
     {
       "airTemperature": {
-        "dwd": 15.92,
-        "ecmwf": 15.58,
-        "noaa": 19.68,
-        "sg": 15.58
+        "dwd": 15.83,
+        "ecmwf": 15.45,
+        "noaa": 22.44,
+        "sg": 15.45
       },
       "currentDirection": {
-        "ecmwf": 275.89,
-        "meto": 40.87,
-        "sg": 275.89
+        "ecmwf": 275.19,
+        "metno": 27.58,
+        "meto": 245.04,
+        "sg": 27.58
       },
       "currentSpeed": {
-        "ecmwf": 0.04,
-        "meto": 0.09,
-        "sg": 0.04
+        "ecmwf": 0.06,
+        "metno": 0.21,
+        "meto": 0.04,
+        "sg": 0.21
       },
       "gust": {
-        "dwd": 3.13,
-        "noaa": 1.86,
-        "sg": 3.13
+        "dwd": 6.04,
+        "noaa": 2.34,
+        "sg": 6.04
       },
-      "time": "2025-06-16T09:00:00+00:00",
+      "time": "2025-06-16T13:00:00+00:00",
       "visibility": {
         "noaa": 24.14,
         "sg": 24.14
       },
       "waterTemperature": {
-        "metno": 16.59,
-        "meto": 17.61,
-        "noaa": 23.45,
-        "sg": 16.59
+        "metno": 17.07,
+        "meto": 17.9,
+        "noaa": 25.57,
+        "sg": 17.07
       },
       "waveDirection": {
-        "ecmwf": 239.98,
-        "meteo": 251.95,
-        "noaa": 252.02,
-        "sg": 239.98
+        "ecmwf": 238.43,
+        "meteo": 252.5,
+        "metno": 41.38,
+        "noaa": 251.21,
+        "sg": 41.38
       },
       "waveHeight": {
         "dwd": 0.34,
-        "ecmwf": 0.36,
-        "meteo": 0.51,
-        "noaa": 0.44,
-        "sg": 0.36
-      },
-      "wavePeriod": {
-        "ecmwf": 3.44,
-        "meteo": 3.97,
-        "noaa": 4.68,
-        "sg": 3.44
-      },
-      "windDirection": {
-        "dwd": 241.68,
-        "ecmwf": 248.0,
-        "noaa": 306.08,
-        "sg": 248.0
-      },
-      "windSpeed": {
-        "dwd": 2.16,
-        "ecmwf": 2.47,
-        "noaa": 1.7,
-        "sg": 2.47
-      }
-    },
-    {
-      "airTemperature": {
-        "dwd": 15.66,
-        "ecmwf": 15.48,
-        "noaa": 20.72,
-        "sg": 15.48
-      },
-      "currentDirection": {
-        "ecmwf": 279.62,
-        "meto": 48.65,
-        "sg": 279.62
-      },
-      "currentSpeed": {
-        "ecmwf": 0.04,
-        "meto": 0.08,
-        "sg": 0.04
-      },
-      "gust": {
-        "dwd": 3.93,
-        "noaa": 1.81,
-        "sg": 3.93
-      },
-      "time": "2025-06-16T10:00:00+00:00",
-      "visibility": {
-        "noaa": 24.14,
-        "sg": 24.14
-      },
-      "waterTemperature": {
-        "metno": 16.72,
-        "meto": 17.77,
-        "noaa": 24.47,
-        "sg": 16.72
-      },
-      "waveDirection": {
-        "ecmwf": 239.09,
-        "meteo": 252.01,
-        "noaa": 251.82,
-        "sg": 239.09
-      },
-      "waveHeight": {
-        "dwd": 0.32,
         "ecmwf": 0.35,
-        "meteo": 0.49,
-        "noaa": 0.42,
-        "sg": 0.35
+        "meteo": 0.42,
+        "metno": 0.25,
+        "noaa": 0.36,
+        "sg": 0.25
       },
       "wavePeriod": {
-        "ecmwf": 3.15,
-        "meteo": 4.02,
-        "noaa": 4.67,
-        "sg": 3.15
+        "ecmwf": 2.36,
+        "meteo": 3.9,
+        "noaa": 5.49,
+        "sg": 2.36
       },
       "windDirection": {
-        "dwd": 229.1,
-        "ecmwf": 240.38,
-        "noaa": 280.84,
-        "sg": 240.38
+        "dwd": 218.65,
+        "ecmwf": 233.64,
+        "noaa": 224.55,
+        "sg": 233.64
       },
       "windSpeed": {
-        "dwd": 2.78,
-        "ecmwf": 3.03,
-        "noaa": 1.89,
-        "sg": 3.03
+        "dwd": 4.44,
+        "ecmwf": 4.53,
+        "noaa": 3.2,
+        "sg": 4.53
       }
     }
   ],
   "meta": {
     "cost": 1,
     "dailyQuota": 10,
-    "end": "2025-06-16 10:00",
+    "end": "2025-06-16 13:00",
     "lat": 50.8141883,
     "lng": -0.1416837,
     "params": [
@@ -150,7 +89,7 @@
       "currentSpeed",
       "airTemperature"
     ],
-    "requestCount": 4,
-    "start": "2025-06-16 09:00"
+    "requestCount": 5,
+    "start": "2025-06-16 13:00"
   }
 }
