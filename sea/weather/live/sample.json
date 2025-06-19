@@ -2,78 +2,147 @@
   "hours": [
     {
       "airTemperature": {
-        "dwd": 16.95,
-        "ecmwf": 15.96,
-        "noaa": 12.76,
-        "sg": 15.96
+        "dwd": 16.9,
+        "ecmwf": 15.82,
+        "noaa": 12.52,
+        "sg": 15.82
       },
       "currentDirection": {
-        "ecmwf": 92.79,
-        "metno": 33.53,
-        "meto": 115.6,
-        "sg": 33.53
+        "ecmwf": 96.35,
+        "metno": 30.4,
+        "meto": 120.23,
+        "sg": 30.4
       },
       "currentSpeed": {
-        "ecmwf": 0.22,
-        "metno": 0.34,
+        "ecmwf": 0.23,
+        "metno": 0.23,
         "meto": 0.13,
-        "sg": 0.34
+        "sg": 0.23
       },
       "gust": {
-        "dwd": 2.9,
-        "noaa": 1.97,
-        "sg": 2.9
+        "dwd": 3.29,
+        "noaa": 2.0,
+        "sg": 3.29
       },
-      "time": "2025-06-19T02:00:00+00:00",
+      "time": "2025-06-19T03:00:00+00:00",
       "visibility": {
         "noaa": 24.13,
         "sg": 24.13
       },
       "waterTemperature": {
-        "metno": 16.84,
-        "meto": 18.21,
-        "noaa": 11.52,
-        "sg": 16.84
+        "metno": 16.72,
+        "meto": 18.18,
+        "noaa": 11.35,
+        "sg": 16.72
       },
       "waveDirection": {
-        "ecmwf": 164.55,
-        "meteo": 259.65,
-        "metno": 65.73,
-        "noaa": 255.1,
-        "sg": 65.73
+        "ecmwf": 121.49,
+        "meteo": 259.54,
+        "metno": 35.73,
+        "noaa": 255.26,
+        "sg": 35.73
       },
       "waveHeight": {
         "dwd": 0.15,
         "ecmwf": 0.27,
         "meteo": 0.27,
         "metno": 0.11,
-        "noaa": 0.32,
+        "noaa": 0.35,
         "sg": 0.11
       },
       "wavePeriod": {
-        "ecmwf": 1.81,
-        "meteo": 4.59,
-        "noaa": 6.5,
-        "sg": 1.81
+        "ecmwf": 1.77,
+        "meteo": 4.67,
+        "noaa": 5.69,
+        "sg": 1.77
       },
       "windDirection": {
-        "dwd": 87.85,
-        "ecmwf": 72.0,
-        "noaa": 72.52,
-        "sg": 72.0
+        "dwd": 74.76,
+        "ecmwf": 69.14,
+        "noaa": 64.51,
+        "sg": 69.14
       },
       "windSpeed": {
-        "dwd": 1.9,
-        "ecmwf": 4.6,
-        "noaa": 2.08,
-        "sg": 4.6
+        "dwd": 2.19,
+        "ecmwf": 4.94,
+        "noaa": 2.11,
+        "sg": 4.94
+      }
+    },
+    {
+      "airTemperature": {
+        "dwd": 16.84,
+        "ecmwf": 15.84,
+        "noaa": 13.67,
+        "sg": 15.84
+      },
+      "currentDirection": {
+        "ecmwf": 96.84,
+        "metno": 21.72,
+        "meto": 122.91,
+        "sg": 21.72
+      },
+      "currentSpeed": {
+        "ecmwf": 0.23,
+        "metno": 0.08,
+        "meto": 0.12,
+        "sg": 0.08
+      },
+      "gust": {
+        "dwd": 3.75,
+        "noaa": 2.68,
+        "sg": 3.75
+      },
+      "time": "2025-06-19T04:00:00+00:00",
+      "visibility": {
+        "noaa": 24.13,
+        "sg": 24.13
+      },
+      "waterTemperature": {
+        "metno": 16.63,
+        "meto": 18.18,
+        "noaa": 13.15,
+        "sg": 16.63
+      },
+      "waveDirection": {
+        "ecmwf": 108.65,
+        "meteo": 259.38,
+        "metno": 35.73,
+        "noaa": 196.57,
+        "sg": 35.73
+      },
+      "waveHeight": {
+        "dwd": 0.15,
+        "ecmwf": 0.27,
+        "meteo": 0.26,
+        "metno": 0.12,
+        "noaa": 0.38,
+        "sg": 0.12
+      },
+      "wavePeriod": {
+        "ecmwf": 1.78,
+        "meteo": 4.7,
+        "noaa": 4.76,
+        "sg": 1.78
+      },
+      "windDirection": {
+        "dwd": 65.96,
+        "ecmwf": 71.14,
+        "noaa": 67.77,
+        "sg": 71.14
+      },
+      "windSpeed": {
+        "dwd": 2.53,
+        "ecmwf": 4.86,
+        "noaa": 2.22,
+        "sg": 4.86
       }
     }
   ],
   "meta": {
     "cost": 1,
     "dailyQuota": 10,
-    "end": "2025-06-19 02:00",
+    "end": "2025-06-19 04:00",
     "lat": 50.8141883,
     "lng": -0.1416837,
     "params": [
@@ -89,7 +158,7 @@
       "currentSpeed",
       "airTemperature"
     ],
-    "requestCount": 1,
-    "start": "2025-06-19 02:00"
+    "requestCount": 2,
+    "start": "2025-06-19 03:00"
   }
 }
