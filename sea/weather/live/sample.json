@@ -2,81 +2,153 @@
   "hours": [
     {
       "airTemperature": {
-        "dwd": 17.8,
-        "ecmwf": 18.63,
-        "ecmwf:aifs": 18.57,
-        "noaa": 15.19,
-        "sg": 18.63
+        "dwd": 17.96,
+        "ecmwf": 18.3,
+        "ecmwf:aifs": 18.43,
+        "noaa": 15.15,
+        "sg": 18.3
       },
       "currentDirection": {
-        "ecmwf": 96.96,
-        "metno": 208.97,
-        "meto": 74.35,
-        "sg": 208.97
+        "ecmwf": 97.18,
+        "metno": 192.77,
+        "meto": 71.9,
+        "sg": 192.77
       },
       "currentSpeed": {
         "ecmwf": 0.07,
-        "metno": 0.25,
-        "meto": 0.17,
-        "sg": 0.25
+        "metno": 0.07,
+        "meto": 0.18,
+        "sg": 0.07
       },
       "gust": {
-        "dwd": 7.93,
-        "noaa": 9.95,
-        "sg": 7.93
+        "dwd": 7.91,
+        "noaa": 10.05,
+        "sg": 7.91
       },
-      "time": "2025-08-16T02:00:00+00:00",
+      "time": "2025-08-16T03:00:00+00:00",
       "visibility": {
         "noaa": 24.14,
         "sg": 24.14
       },
       "waterTemperature": {
-        "metno": 19.5,
-        "meto": 20.91,
-        "noaa": 14.61,
-        "sg": 19.5
+        "metno": 19.41,
+        "meto": 20.88,
+        "noaa": 14.52,
+        "sg": 19.41
       },
       "waveDirection": {
-        "ecmwf": 78.39,
-        "meteo": 60.66,
-        "metno": 143.85,
-        "noaa": 76.69,
-        "sg": 143.85
+        "ecmwf": 64.23,
+        "meteo": 57.69,
+        "metno": 141.91,
+        "noaa": 75.83,
+        "sg": 141.91
       },
       "waveHeight": {
-        "dwd": 0.38,
-        "ecmwf": 0.36,
-        "meteo": 0.58,
+        "dwd": 0.4,
+        "ecmwf": 0.39,
+        "meteo": 0.62,
         "metno": 0.19,
-        "noaa": 0.97,
+        "noaa": 1.0,
         "sg": 0.19
       },
       "wavePeriod": {
-        "ecmwf": 1.95,
+        "ecmwf": 1.94,
         "meteo": 2.77,
-        "noaa": 4.49,
-        "sg": 1.95
+        "noaa": 4.58,
+        "sg": 1.94
       },
       "windDirection": {
-        "dwd": 48.84,
-        "ecmwf": 49.09,
-        "ecmwf:aifs": 60.21,
-        "noaa": 42.88,
-        "sg": 49.09
+        "dwd": 47.07,
+        "ecmwf": 44.46,
+        "ecmwf:aifs": 58.68,
+        "noaa": 39.93,
+        "sg": 44.46
       },
       "windSpeed": {
-        "dwd": 5.94,
-        "ecmwf": 5.78,
-        "ecmwf:aifs": 6.59,
-        "noaa": 3.96,
-        "sg": 5.78
+        "dwd": 5.16,
+        "ecmwf": 6.59,
+        "ecmwf:aifs": 6.78,
+        "noaa": 4.11,
+        "sg": 6.59
+      }
+    },
+    {
+      "airTemperature": {
+        "dwd": 17.89,
+        "ecmwf": 17.97,
+        "ecmwf:aifs": 18.28,
+        "noaa": 15.67,
+        "sg": 17.97
+      },
+      "currentDirection": {
+        "ecmwf": 94.73,
+        "metno": 44.01,
+        "meto": 71.06,
+        "sg": 44.01
+      },
+      "currentSpeed": {
+        "ecmwf": 0.08,
+        "metno": 0.14,
+        "meto": 0.19,
+        "sg": 0.14
+      },
+      "gust": {
+        "dwd": 6.93,
+        "noaa": 9.73,
+        "sg": 6.93
+      },
+      "time": "2025-08-16T04:00:00+00:00",
+      "visibility": {
+        "noaa": 24.14,
+        "sg": 24.14
+      },
+      "waterTemperature": {
+        "metno": 19.34,
+        "meto": 20.85,
+        "noaa": 15.25,
+        "sg": 19.34
+      },
+      "waveDirection": {
+        "ecmwf": 64.63,
+        "meteo": 58.64,
+        "metno": 129.27,
+        "noaa": 75.37,
+        "sg": 129.27
+      },
+      "waveHeight": {
+        "dwd": 0.39,
+        "ecmwf": 0.44,
+        "meteo": 0.7,
+        "metno": 0.2,
+        "noaa": 1.04,
+        "sg": 0.2
+      },
+      "wavePeriod": {
+        "ecmwf": 2.02,
+        "meteo": 2.9,
+        "noaa": 4.69,
+        "sg": 2.02
+      },
+      "windDirection": {
+        "dwd": 41.45,
+        "ecmwf": 47.66,
+        "ecmwf:aifs": 57.16,
+        "noaa": 41.98,
+        "sg": 47.66
+      },
+      "windSpeed": {
+        "dwd": 4.72,
+        "ecmwf": 6.89,
+        "ecmwf:aifs": 6.98,
+        "noaa": 4.45,
+        "sg": 6.89
       }
     }
   ],
   "meta": {
     "cost": 1,
     "dailyQuota": 10,
-    "end": "2025-08-16 02:00",
+    "end": "2025-08-16 04:00",
     "lat": 50.8141883,
     "lng": -0.1416837,
     "params": [
@@ -92,7 +164,7 @@
       "currentSpeed",
       "airTemperature"
     ],
-    "requestCount": 1,
-    "start": "2025-08-16 02:00"
+    "requestCount": 2,
+    "start": "2025-08-16 03:00"
   }
 }
