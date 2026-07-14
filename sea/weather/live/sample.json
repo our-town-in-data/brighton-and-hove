@@ -2,79 +2,149 @@
   "hours": [
     {
       "airTemperature": {
-        "ecmwf": 22.14,
-        "ecmwf:aifs": 22.58,
-        "noaa": 29.03,
-        "sg": 22.14
+        "ecmwf": 23.24,
+        "ecmwf:aifs": 22.91,
+        "noaa": 28.11,
+        "sg": 23.24
       },
       "currentDirection": {
-        "ecmwf": 96.62,
-        "metno": 67.17,
-        "meto": 87.0,
-        "sg": 67.17
+        "ecmwf": 98.84,
+        "metno": 62.77,
+        "meto": 89.91,
+        "sg": 62.77
       },
       "currentSpeed": {
-        "ecmwf": 0.23,
-        "metno": 0.45,
+        "ecmwf": 0.21,
+        "metno": 0.24,
         "meto": 0.16,
-        "sg": 0.45
+        "sg": 0.24
       },
       "gust": {
-        "ecmwf": 7.35,
-        "noaa": 7.08,
-        "sg": 7.35
+        "ecmwf": 9.03,
+        "noaa": 7.81,
+        "sg": 9.03
       },
-      "time": "2026-07-14T14:00:00+00:00",
+      "time": "2026-07-14T16:00:00+00:00",
       "visibility": {
         "noaa": 24.14,
         "sg": 24.14
       },
       "waterTemperature": {
-        "metno": 19.89,
-        "meto": 21.05,
-        "sg": 19.89
+        "metno": 19.99,
+        "meto": 21.12,
+        "sg": 19.99
       },
       "waveDirection": {
-        "ecmwf": 77.34,
-        "meteo": 59.81,
-        "metno": 107.13,
-        "noaa": 71.29,
-        "sg": 107.13
+        "ecmwf": 79.85,
+        "meteo": 63.47,
+        "metno": 116.52,
+        "noaa": 71.95,
+        "sg": 116.52
       },
       "waveHeight": {
-        "dwd": 0.45,
-        "ecmwf": 0.37,
-        "meteo": 0.79,
-        "metno": 0.31,
-        "noaa": 0.67,
-        "sg": 0.31
+        "dwd": 0.39,
+        "ecmwf": 0.33,
+        "meteo": 0.77,
+        "metno": 0.32,
+        "noaa": 0.66,
+        "sg": 0.32
       },
       "wavePeriod": {
-        "ecmwf": 2.06,
-        "meteo": 3.36,
-        "noaa": 4.96,
-        "sg": 2.06
+        "ecmwf": 1.96,
+        "meteo": 3.25,
+        "noaa": 4.75,
+        "sg": 1.96
       },
       "windDirection": {
-        "dwd": 102.22,
-        "ecmwf": 61.28,
-        "ecmwf:aifs": 61.51,
-        "noaa": 45.67,
-        "sg": 61.28
+        "dwd": 107.32,
+        "ecmwf": 60.52,
+        "ecmwf:aifs": 63.96,
+        "noaa": 44.08,
+        "sg": 60.52
       },
       "windSpeed": {
-        "dwd": 3.72,
-        "ecmwf": 5.78,
-        "ecmwf:aifs": 5.53,
-        "noaa": 6.97,
-        "sg": 5.78
+        "dwd": 3.25,
+        "ecmwf": 6.23,
+        "ecmwf:aifs": 5.79,
+        "noaa": 7.01,
+        "sg": 6.23
+      }
+    },
+    {
+      "airTemperature": {
+        "ecmwf": 23.37,
+        "ecmwf:aifs": 23.07,
+        "noaa": 26.92,
+        "sg": 23.37
+      },
+      "currentDirection": {
+        "ecmwf": 98.86,
+        "metno": 40.41,
+        "meto": 86.64,
+        "sg": 40.41
+      },
+      "currentSpeed": {
+        "ecmwf": 0.2,
+        "metno": 0.04,
+        "meto": 0.15,
+        "sg": 0.04
+      },
+      "gust": {
+        "ecmwf": 9.03,
+        "noaa": 8.42,
+        "sg": 9.03
+      },
+      "time": "2026-07-14T17:00:00+00:00",
+      "visibility": {
+        "noaa": 24.14,
+        "sg": 24.14
+      },
+      "waterTemperature": {
+        "metno": 20.01,
+        "meto": 21.1,
+        "sg": 20.01
+      },
+      "waveDirection": {
+        "ecmwf": 77.33,
+        "meteo": 65.37,
+        "metno": 114.08,
+        "noaa": 73.0,
+        "sg": 114.08
+      },
+      "waveHeight": {
+        "dwd": 0.37,
+        "ecmwf": 0.33,
+        "meteo": 0.8,
+        "metno": 0.36,
+        "noaa": 0.7,
+        "sg": 0.36
+      },
+      "wavePeriod": {
+        "ecmwf": 1.91,
+        "meteo": 3.22,
+        "noaa": 4.58,
+        "sg": 1.91
+      },
+      "windDirection": {
+        "dwd": 89.48,
+        "ecmwf": 56.26,
+        "ecmwf:aifs": 65.19,
+        "noaa": 46.38,
+        "sg": 56.26
+      },
+      "windSpeed": {
+        "dwd": 3.21,
+        "ecmwf": 6.88,
+        "ecmwf:aifs": 5.91,
+        "noaa": 7.12,
+        "sg": 6.88
       }
     }
   ],
   "meta": {
     "cost": 1,
     "dailyQuota": 10,
-    "end": "2026-07-14 14:00",
+    "end": "2026-07-14 17:00",
     "lat": 50.8141883,
     "lng": -0.1416837,
     "params": [
@@ -90,7 +160,7 @@
       "currentSpeed",
       "airTemperature"
     ],
-    "requestCount": 4,
-    "start": "2026-07-14 14:00"
+    "requestCount": 5,
+    "start": "2026-07-14 16:00"
   }
 }
